@@ -1,8 +1,20 @@
 const CardWelcome = (props) => {
-  const cardData = props.cardData;
+  const {
+    cardData,
+    active,
+    route,
+    setRoute
+  } = props;
   return (
     <>
-      <div className={"card" + (props.active === true ? " active" : "") + (" " + cardData.key)}>
+      <div
+        className={"card" + (active === true ? " active" : "") + (" " + cardData.key)}
+       onClick={() => {
+        if (active === true) {
+          setRoute(cardData.key);
+        }
+       }}
+      >
         <div className="img">
           <img src={cardData.imgSrc} alt={cardData.imgAlt} />
         </div>
