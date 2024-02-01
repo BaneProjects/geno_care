@@ -153,3 +153,11 @@ main{
   max-width: 1200px;
   margin:auto;
 }
+.welcomeTitle {
+  width: 720px;
+  height: 87px;
+  font-weight: 600;
+  font-size: 70px;
+  align-items: center;
+  color: #373477;
+}
