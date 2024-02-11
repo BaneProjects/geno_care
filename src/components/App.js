@@ -4,12 +4,11 @@ import ComponentPicker from "./ComponentPicker";
 
 const App = () => {
   const [route, setRoute] = useState("welcome");
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(3);
 
 
   return (
     <>
-      
       <Header route={route} setRoute={setRoute} step={step} />
       <main>
         <ComponentPicker route={route}  setRoute={setRoute} step={step}/>

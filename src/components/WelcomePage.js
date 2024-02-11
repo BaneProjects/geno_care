@@ -30,8 +30,9 @@ const WelcomePage = (props) => {
   const {step} = props;
   return (
     <>
-      <h1 className="welcomeTitle">Welcome to GenoCare</h1>
+      <h1 className="welcome-title">Happy Wednesday!</h1>
       <div className="row">
+        
         <CardWelcome
           cardData={dataCard.research}
           route={props.route}

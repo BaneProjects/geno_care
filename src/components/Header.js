@@ -36,6 +36,14 @@ const Header = (props) => {
               }
             }}
           >Recommendation</div>
+          <div
+            className={"link" + (step > 3 ? " active" : "")}
+            onClick={() => {
+              if (step > 2) {
+                setRoute("mycheckups");
+              }
+            }}
+          >My checkups</div>
         </nav>
         <div className="avatar">i</div>
       </header >

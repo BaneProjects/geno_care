@@ -13,7 +13,6 @@ const ComponentPicker = ({ route, step, setRoute }) => {
     case "recommendations":
       return <RecommendationsPage route={route} setRoute={setRoute} step={step} />;
     default:
-      console.log(route)
       return (
         
         <h3>

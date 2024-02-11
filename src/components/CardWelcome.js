@@ -15,9 +15,6 @@ const CardWelcome = (props) => {
         }
        }}
       >
-        <div className="img">
-          <img src={cardData.imgSrc} alt={cardData.imgAlt} />
-        </div>
         <h3>{cardData.title}</h3>
         <p>{cardData.description}</p>
       </div>
