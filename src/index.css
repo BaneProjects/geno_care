@@ -232,3 +232,65 @@ main {
 .card-family.hightlighted>p.subtitle2 {
   color: #24292B;
 }
+.recommendation h3{
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.holder{
+  display: flex;
+}
+.screenings{
+width: 730px;
+}
+.sidebar{
+  width: 327px;
+  height: 535px;
+}
+.sidebar .first_card{
+  background-color: #008EBC;
+  padding: 15px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sidebar .first_card li::marker{
+ color: #24292B;
+}
+.sidebar .first_card li span{
+  color: #24292B;
+  border-bottom: 1px solid #24292B;
+ }
+.sidebar .overview{
+  background-color: #35E3B0;
+  padding: 15px;
+  color:  #24292B;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+.btn{
+  background: linear-gradient(134.19deg, #011329 0.53%, #0B3156 93.12%);
+  color: white;
+  cursor: pointer;
+  padding: 15px 40px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.title > h1{
+font-weight: 600;
+font-size: 60px;
+margin-bottom: 0;
+}
+.enumeration{
+  color:#77C6DF;
+  font-weight: 600;
+}
+.note{
+  margin-top: 100px;
+}
+.note .note_title{
+  font-weight: 600;
+}
+.note .note_text{
+  font-size: 13px;
+}
